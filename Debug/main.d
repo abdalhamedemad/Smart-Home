@@ -1,63 +1,70 @@
-main.o main.o: ../main.c D:\Embedded\Work_Space\Project\inc/macros.h \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/DIO.h \
-  D:\Embedded\Work_Space\Project\inc/SSD.h \
-  D:\Embedded\Work_Space\Project\inc/DIO.h \
-  D:\Embedded\Work_Space\Project\inc/LCD.h \
-  D:\Embedded\Work_Space\Project\inc/Keypad.h \
-  D:\Embedded\Work_Space\Project\inc/ExtInterrupt.h \
-  D:\Embedded\Work_Space\Project\inc/Adc.h \
-  D:\Embedded\Work_Space\Project\inc/Gpt.h \
-  D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h \
-  D:\Embedded\Work_Space\Project\inc/Spt.h \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/UART.h \
-  D:\Embedded\Work_Space\Project\inc/SPI_cfg.h \
-  D:\Embedded\Work_Space\Project\inc/SPI.h \
-  D:\Embedded\Work_Space\Project\inc/WDT.h \
-  D:\Embedded\Work_Space\Project\inc/I2C.h \
-  D:\Embedded\Work_Space\Project\inc/I2C_cfg.h \
-  D:\Embedded\Work_Space\Project\inc/EEPROM.h \
-  D:\Embedded\Work_Space\Project\inc/EEPROM_cfg.h
+main.o main.o: ../main.c \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SSD.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/LCD.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Keypad.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Gpt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Spt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/UART.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI_cfg.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/WDT.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/I2C.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/I2C_cfg.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/EEPROM.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/EEPROM_cfg.h
 
-D:\Embedded\Work_Space\Project\inc/macros.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/DIO.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h:
 
-D:\Embedded\Work_Space\Project\inc/SSD.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SSD.h:
 
-D:\Embedded\Work_Space\Project\inc/DIO.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h:
 
-D:\Embedded\Work_Space\Project\inc/LCD.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/LCD.h:
 
-D:\Embedded\Work_Space\Project\inc/Keypad.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Keypad.h:
 
-D:\Embedded\Work_Space\Project\inc/ExtInterrupt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt.h:
 
-D:\Embedded\Work_Space\Project\inc/Adc.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc.h:
 
-D:\Embedded\Work_Space\Project\inc/Gpt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Gpt.h:
 
-D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h:
 
-D:\Embedded\Work_Space\Project\inc/Spt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Spt.h:
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/UART.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/UART.h:
 
-D:\Embedded\Work_Space\Project\inc/SPI_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h:
 
-D:\Embedded\Work_Space\Project\inc/SPI.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/WDT.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI_cfg.h:
 
-D:\Embedded\Work_Space\Project\inc/I2C.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI.h:
 
-D:\Embedded\Work_Space\Project\inc/I2C_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/WDT.h:
 
-D:\Embedded\Work_Space\Project\inc/EEPROM.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/I2C.h:
 
-D:\Embedded\Work_Space\Project\inc/EEPROM_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/I2C_cfg.h:
+
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/EEPROM.h:
+
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/EEPROM_cfg.h:

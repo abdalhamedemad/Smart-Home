@@ -31,47 +31,47 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 LSS += \
-Project.lss \
+projectk.lss \
 
 FLASH_IMAGE += \
-Project.hex \
+projectk.hex \
 
 SIZEDUMMY += \
 sizedummy \
 
 
 # All Target
-all: Project.elf secondary-outputs
+all: projectk.elf secondary-outputs
 
 # Tool invocations
-Project.elf: $(OBJS) $(USER_OBJS)
+projectk.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C Linker'
-	avr-gcc -Wl,-Map,Project.map -mmcu=atmega32 -o "Project.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-gcc -Wl,-Map,projectk.map -mmcu=atmega32 -o "projectk.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-Project.lss: Project.elf
+projectk.lss: projectk.elf
 	@echo 'Invoking: AVR Create Extended Listing'
-	-avr-objdump -h -S Project.elf  >"Project.lss"
+	-avr-objdump -h -S projectk.elf  >"projectk.lss"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-Project.hex: Project.elf
+projectk.hex: projectk.elf
 	@echo 'Create Flash image (ihex format)'
-	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Project.elf  "Project.hex"
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex projectk.elf  "projectk.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sizedummy: Project.elf
+sizedummy: projectk.elf
 	@echo 'Invoking: Print Size'
-	-avr-size --format=avr --mcu=atmega32 Project.elf
+	-avr-size --format=avr --mcu=atmega32 projectk.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) Project.elf
+	-$(RM) $(FLASH_IMAGE)$(ELFS)$(OBJS)$(ASM_DEPS)$(S_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(LSS)$(C_DEPS) projectk.elf
 	-@echo ' '
 
 secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)

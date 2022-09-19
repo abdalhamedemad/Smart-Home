@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "eeprom_cfg.h": "c",
+        "extinterrupt.h": "c"
+    }
+}

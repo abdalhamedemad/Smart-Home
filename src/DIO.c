@@ -167,6 +167,25 @@ void DIO_SetPortMode(DIO_PortType port, DIO_ModeType mode) {
     }
 }
 
+void DIO_FlipPinLevel(DIO_PortType port, DIO_PinType pin) {
+    switch (port)
+    {
+    case DIO_PORTA:
+        TOG_BIT(PORTA, pin);
+        break;
+    case DIO_PORTB:
+        TOG_BIT(PORTB, pin);
+        break;
+    case DIO_PORTC:
+        TOG_BIT(PORTC, pin);
+        break;
+    case DIO_PORTD:
+        TOG_BIT(PORTD, pin);
+        break;
+    default:
+        break;
+    }
+}
 
 void DIO_SetPinLevel(DIO_PortType port, DIO_PinType pin, DIO_LevelType level) {
     if (level == DIO_HIGH) 

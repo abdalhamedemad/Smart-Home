@@ -412,111 +412,111 @@ Spt_ReturnType Spt_Init(Spt_ConfigType *config)
         }
         break;
 
-        // case GPT_CHANNEL_TIMER2:
-        //     /*Waveform Generation Mode*/
-        //     if (config->mode == GPT_MODE_NORMAL)
-        //     {
-        //         CLR_BIT(TCCR2,TCCR2_COM20);
-        //         CLR_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         // TODO
-        //     }
-        //     else if (config->mode == GPT_MODE_CTC)
-        //     {
-        //         CLR_BIT(TCCR2,TCCR2_COM20);
-        //         SET_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         // TODO
-        //     }
-        //     else
-        //     {
-        //         returnValue = GPT_ERROR;
-        //     }
+         case SPT_CHANNEL_TIMER2:
+		 /*Waveform Generation Mode*/
+		 if (config->mode == SPT_MODE_FAST_PWM)
+		 {
+			 SET_BIT(TCCR2,TCCR2_WGM20);
+			 SET_BIT(TCCR2,TCCR2_WGM21);
+			 // TODO
+			 // TODO
+		 }
+//		 else if (config->mode == GPT_MODE_CTC)
+//		 {
+//			 CLR_BIT(TCCR2,TCCR2_COM20);
+//			 SET_BIT(TCCR2,TCCR2_COM21);
+//			 // TODO
+//			 // TODO
+//		 }
+		 else
+		 {
+			 returnValue = SPT_ERROR;
+		 }
 
-        //     /*Compare Match Output Mode*/
-        //     switch (config->output)
-        //     {
-        //     case GPT_OUTPUT_NORMAL:
-        //         CLR_BIT(TCCR2,TCCR2_COM20);
-        //         CLR_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         break;
-        //     case GPT_OUTPUT_TOGGLE:
-        //         SET_BIT(TCCR2,TCCR2_COM20);
-        //         CLR_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         break;
-        //     case GPT_OUTPUT_SET:
-        //         SET_BIT(TCCR2,TCCR2_COM20);
-        //         SET_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         break;
-        //     case GPT_OUTPUT_CLEAR:
-        //         CLR_BIT(TCCR2,TCCR2_COM20);
-        //         SET_BIT(TCCR2,TCCR2_COM21);
-        //         // TODO
-        //         break;
-        //     default:
-        //         returnValue = GPT_ERROR;
-        //         break;
-        //     }
+		 /*Compare Match Output Mode*/
+		 switch (config->output)
+		 {
+		 case SPT_OUTPUT_NORMAL:
+			 CLR_BIT(TCCR2,TCCR2_COM20);
+			 CLR_BIT(TCCR2,TCCR2_COM21);
+			 // TODO
+			 break;
+		 case SPT_OUTPUT_TOGGLE:
+			 SET_BIT(TCCR2,TCCR2_COM20);
+			 CLR_BIT(TCCR2,TCCR2_COM21);
+			 // TODO
+			 break;
+		 case SPT_OUTPUT_SET:
+			 SET_BIT(TCCR2,TCCR2_COM20);
+			 SET_BIT(TCCR2,TCCR2_COM21);
+			 // TODO
+			 break;
+		 case SPT_OUTPUT_CLEAR:
+			 CLR_BIT(TCCR2,TCCR2_COM20);
+			 SET_BIT(TCCR2,TCCR2_COM21);
+			 // TODO
+			 break;
+		 default:
+			 returnValue = SPT_ERROR;
+			 break;
+		 }
 
-        //     /*Clock Select*/
-        //     switch (config->prescaler)
-        //     {
-        //     case GPT_PRESCALER_0:
-        //         CLR_BIT(TCCR2,TCCR2_CS20);
-        //         CLR_BIT(TCCR2,TCCR2_CS21);
-        //         CLR_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_1:
-        //         SET_BIT(TCCR2,TCCR2_CS20);
-        //         CLR_BIT(TCCR2,TCCR2_CS21);
-        //         CLR_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_8:
-        //         CLR_BIT(TCCR2,TCCR2_CS20);
-        //         SET_BIT(TCCR2,TCCR2_CS21);
-        //         CLR_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_32:
-        //         SET_BIT(TCCR2,TCCR2_CS20);
-        //         SET_BIT(TCCR2,TCCR2_CS21);
-        //         CLR_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_64:
-        //         CLR_BIT(TCCR2,TCCR2_CS20);
-        //         CLR_BIT(TCCR2,TCCR2_CS21);
-        //         SET_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_128:
-        //         SET_BIT(TCCR2,TCCR2_CS20);
-        //         CLR_BIT(TCCR2,TCCR2_CS21);
-        //         SET_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_256:
-        //         CLR_BIT(TCCR2,TCCR2_CS20);
-        //         SET_BIT(TCCR2,TCCR2_CS21);
-        //         SET_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     case GPT_PRESCALER_1024:
-        //         SET_BIT(TCCR2,TCCR2_CS20);
-        //         SET_BIT(TCCR2,TCCR2_CS21);
-        //         SET_BIT(TCCR2,TCCR2_CS22);
-        //         // TODO
-        //         break;
-        //     default:
-        //         returnValue = GPT_ERROR;
-        //         break;
-        //     }
-        //     break;
+		 /*Clock Select*/
+		 switch (config->prescaler)
+		 {
+		 case SPT_PRESCALER_0:
+			 CLR_BIT(TCCR2,TCCR2_CS20);
+			 CLR_BIT(TCCR2,TCCR2_CS21);
+			 CLR_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_1:
+			 SET_BIT(TCCR2,TCCR2_CS20);
+			 CLR_BIT(TCCR2,TCCR2_CS21);
+			 CLR_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_8:
+			 CLR_BIT(TCCR2,TCCR2_CS20);
+			 SET_BIT(TCCR2,TCCR2_CS21);
+			 CLR_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_32:
+			 SET_BIT(TCCR2,TCCR2_CS20);
+			 SET_BIT(TCCR2,TCCR2_CS21);
+			 CLR_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_64:
+			 CLR_BIT(TCCR2,TCCR2_CS20);
+			 CLR_BIT(TCCR2,TCCR2_CS21);
+			 SET_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_128:
+			 SET_BIT(TCCR2,TCCR2_CS20);
+			 CLR_BIT(TCCR2,TCCR2_CS21);
+			 SET_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_256:
+			 CLR_BIT(TCCR2,TCCR2_CS20);
+			 SET_BIT(TCCR2,TCCR2_CS21);
+			 SET_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 case SPT_PRESCALER_1024:
+			 SET_BIT(TCCR2,TCCR2_CS20);
+			 SET_BIT(TCCR2,TCCR2_CS21);
+			 SET_BIT(TCCR2,TCCR2_CS22);
+			 // TODO
+			 break;
+		 default:
+			 returnValue = SPT_ERROR;
+			 break;
+		 }
+		 break;
 
         default:
             returnValue = SPT_ERROR;
@@ -569,17 +569,16 @@ Spt_ReturnType Spt_StartTimer(Spt_ChannelType channel, u16 value)
         }
         // TODO
         break;
-    // case GPT_CHANNEL_TIMER2:
-    //     if (value < 256)
-    //     {
-    //         OCR2 = value;
-    //     }
-    //     else
-    //     {
-    //         returnValue = GPT_ERROR;
-    //     }
-    //     // TODO
-    //     break;
+    case SPT_CHANNEL_TIMER2:
+		if (value < 256)
+		{
+			OCR2 = value;
+		}
+		else
+		{
+			returnValue = SPT_ERROR;
+		}
+		break;
 
     default:
         break;

@@ -594,7 +594,7 @@ u16 Gpt_GetTimeElapsed(Gpt_ChannelType channel)
         value = TCNT0;
         break;
     case GPT_CHANNEL_TIMER1A:
-        value = TCNT1;        
+        value = TCNT1;
         // TODO
         break;
     case GPT_CHANNEL_TIMER1B:

@@ -56,7 +56,7 @@ void Adc_Init(void) {
     CLR_BIT(ADCSRA, ADCSRA_ADIE);
 #elif (ADC_INT_STATE == ADC_INT_ENABLE)
     SET_BIT(ADCSRA, ADCSRA_ADIE);
-    GlobalInterrupt_Enable();
+    //GlobalInterrupt_Enable();
 #else
     #error "Error Interrupt state choise"
 #endif

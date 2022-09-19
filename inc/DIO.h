@@ -55,6 +55,7 @@ typedef enum {
 /************ DIO Prototypes ************/
 void DIO_SetPinMode             (DIO_PortType port, DIO_PinType pin, DIO_ModeType mode      );
 void DIO_SetPortMode            (DIO_PortType port, DIO_ModeType mode                       );
+void DIO_FlipPinLevel           (DIO_PortType port, DIO_PinType pin                         );
 void DIO_SetPinLevel            (DIO_PortType port, DIO_PinType pin, DIO_LevelType level    );
 void DIO_SetPortLevel           (DIO_PortType port, DIO_LevelType level                     );
 DIO_LevelType DIO_ReadPinLevel  (DIO_PortType port, DIO_PinType pin                         );

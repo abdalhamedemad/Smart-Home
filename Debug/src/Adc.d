@@ -1,22 +1,22 @@
 src/Adc.o src/Adc.o: ../src/Adc.c \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/macros.h \
-  D:\Embedded\Work_Space\Project\inc/Registers.h \
-  D:\Embedded\Work_Space\Project\inc/int.h \
-  D:\Embedded\Work_Space\Project\inc/Adc.h \
-  D:\Embedded\Work_Space\Project\inc/Adc_cfg.h \
-  D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/int.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc_cfg.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/macros.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/Registers.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h:
 
-D:\Embedded\Work_Space\Project\inc/int.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/int.h:
 
-D:\Embedded\Work_Space\Project\inc/Adc.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc.h:
 
-D:\Embedded\Work_Space\Project\inc/Adc_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Adc_cfg.h:
 
-D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h:

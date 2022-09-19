@@ -1,19 +1,19 @@
 src/ExtInterrupt.o src/ExtInterrupt.o: ../src/ExtInterrupt.c \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/macros.h \
-  D:\Embedded\Work_Space\Project\inc/Registers.h \
-  D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h \
-  D:\Embedded\Work_Space\Project\inc/ExtInterrupt.h \
-  D:\Embedded\Work_Space\Project\inc/ExtInterrupt_cfg.h
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt_cfg.h
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/macros.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/Registers.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h:
 
-D:\Embedded\Work_Space\Project\inc/GlobalInterrupt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/GlobalInterrupt.h:
 
-D:\Embedded\Work_Space\Project\inc/ExtInterrupt.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt.h:
 
-D:\Embedded\Work_Space\Project\inc/ExtInterrupt_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/ExtInterrupt_cfg.h:

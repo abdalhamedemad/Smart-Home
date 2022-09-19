@@ -1,10 +1,10 @@
 src/DIO.o src/DIO.o: ../src/DIO.c \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/macros.h \
-  D:\Embedded\Work_Space\Project\inc/DIO.h
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/macros.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/DIO.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h:

@@ -1,22 +1,22 @@
 src/SPI.o src/SPI.o: ../src/SPI.c \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/macros.h \
-  D:\Embedded\Work_Space\Project\inc/Registers.h \
-  D:\Embedded\Work_Space\Project\inc/SPI.h \
-  D:\Embedded\Work_Space\Project\inc/std_types.h \
-  D:\Embedded\Work_Space\Project\inc/SPI_cfg.h \
-  D:\Embedded\Work_Space\Project\inc/DIO.h
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI_cfg.h \
+  E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/macros.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/macros.h:
 
-D:\Embedded\Work_Space\Project\inc/Registers.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/Registers.h:
 
-D:\Embedded\Work_Space\Project\inc/SPI.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI.h:
 
-D:\Embedded\Work_Space\Project\inc/std_types.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/std_types.h:
 
-D:\Embedded\Work_Space\Project\inc/SPI_cfg.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/SPI_cfg.h:
 
-D:\Embedded\Work_Space\Project\inc/DIO.h:
+E:\CMP2024\ITI\ embeded\ sysytem\Workspaceforembeded\projectk\inc/DIO.h:
