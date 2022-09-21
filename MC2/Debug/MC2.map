@@ -197,7 +197,7 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x660e
+.text           0x00000000     0x6602
  *(.vectors)
  .vectors       0x00000000       0x54 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
                 0x00000000                __vectors
@@ -557,30 +557,30 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
                 0x00005bca      0x770 ./main.o
                 0x00005bca                Timer_Clock
  .text.Recieve_UART_data
-                0x0000633a      0x1c6 ./main.o
+                0x0000633a      0x1ba ./main.o
                 0x0000633a                Recieve_UART_data
  .text.Print_ON_LCD
-                0x00006500       0x36 ./main.o
-                0x00006500                Print_ON_LCD
- .text.libgcc   0x00006536       0x18 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
-                0x00006536                __udivmodqi4
- .text.libgcc   0x0000654e       0x28 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
-                0x0000654e                __udivmodhi4
- .text.libgcc   0x00006576       0x26 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
-                0x00006576                __divmodhi4
-                0x00006576                _div
- .text.libgcc   0x0000659c        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x0000659c        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x0000659c        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000659c       0x38 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
-                0x0000659c                __prologue_saves__
- .text.libgcc   0x000065d4       0x36 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
-                0x000065d4                __epilogue_restores__
-                0x0000660a                . = ALIGN (0x2)
+                0x000064f4       0x36 ./main.o
+                0x000064f4                Print_ON_LCD
+ .text.libgcc   0x0000652a       0x18 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x0000652a                __udivmodqi4
+ .text.libgcc   0x00006542       0x28 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00006542                __udivmodhi4
+ .text.libgcc   0x0000656a       0x26 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x0000656a                __divmodhi4
+                0x0000656a                _div
+ .text.libgcc   0x00006590        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00006590        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00006590        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00006590       0x38 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00006590                __prologue_saves__
+ .text.libgcc   0x000065c8       0x36 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000065c8                __epilogue_restores__
+                0x000065fe                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000660a        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
-                0x0000660a                exit
-                0x0000660a                _exit
+ .fini9         0x000065fe        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000065fe                exit
+                0x000065fe                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -599,11 +599,11 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000660a        0x4 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .fini0         0x000065fe        0x4 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x0000660e                _etext = .
+                0x00006602                _etext = .
 
-.data           0x00800060      0x128 load address 0x0000660e
+.data           0x00800060      0x128 load address 0x00006602
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800060        0x0 c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
@@ -744,8 +744,8 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
                 0x008001ac                arr
                 0x008001c0                counter2
                 0x008001c1                PROVIDE (__bss_end, .)
-                0x0000660e                __data_load_start = LOADADDR (.data)
-                0x00006736                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00006602                __data_load_start = LOADADDR (.data)
+                0x0000672a                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x008001c1        0x0
                 0x008001c1                PROVIDE (__noinit_start, .)
@@ -770,7 +770,7 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
 .signature
  *(.signature*)
 
-.stab           0x00000000     0x6108
+.stab           0x00000000     0x60e4
  *(.stab)
  .stab          0x00000000      0x450 ./src/Adc.o
  .stab          0x00000450      0x900 ./src/DIO.o
@@ -799,12 +799,12 @@ LOAD c:/users/ascom/downloads/embedded/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/
                                 0x540 (size before relaxing)
  .stab          0x00004f80      0x18c ./src/WDT.o
                                 0x228 (size before relaxing)
- .stab          0x0000510c      0xffc ./main.o
-                               0x150c (size before relaxing)
+ .stab          0x0000510c      0xfd8 ./main.o
+                               0x14ac (size before relaxing)
 
-.stabstr        0x00000000     0x2602
+.stabstr        0x00000000     0x2601
  *(.stabstr)
- .stabstr       0x00000000     0x2602 ./src/Adc.o
+ .stabstr       0x00000000     0x2601 ./src/Adc.o
 
 .stab.excl
  *(.stab.excl)
